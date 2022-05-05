@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const config = {
-  apiKey: "AIzaSyB8XclrCFpyQ-g7i2-ykn7HSubXu6GddIA",
-  authDomain: "fir-chat-677e8.firebaseapp.com",
-  databaseURL: "https://fir-chat-677e8.firebaseio.com",
-  projectId: "fir-chat-677e8",
-  storageBucket: "fir-chat-677e8.appspot.com",
-  messagingSenderId: "1090889211366",
-  appId: "1:1090889211366:web:16d189a0af8362d6464a27",
+  apiKey: "AIzaSyDGj8wdV12KZARi4YtxDZ7tE_ix_CPUNcU",
+  authDomain: "cc-mylab-2.firebaseapp.com",
+  projectId: "cc-mylab-2",
+  storageBucket: "cc-mylab-2.appspot.com",
+  messagingSenderId: "907379912748",
+  appId: "1:907379912748:web:5943bce1aeda0c03eca189",
+  measurementId: "G-CZPXTTFKPK"
 };
 firebase.initializeApp(config);
 firebase.firestore().settings({
